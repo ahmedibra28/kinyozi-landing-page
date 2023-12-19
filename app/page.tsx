@@ -17,8 +17,8 @@ export default function Home() {
           Download now and experience the future of seamless barber bookings.
         </p>
 
-        <div className='flex gap-x-3 justify-center md:justify-start'>
-          <button className='bg-gray-700 border-2 border-gray-300 p-4 w-60 text-white rounded-2xl shadow-md flex items-center text-start gap-x-2 hover:scale-105 duration-700'>
+        <div className='flex flex-col lg:flex-row gap-x-3 justify-center md:justify-start'>
+          <button className='bg-gray-700 border-2 border-gray-300 px-4 py-2 w-60 text-white rounded-2xl shadow-md flex items-center text-start gap-x-2 hover:scale-105 duration-700 mx-auto lg:mx-0'>
             <FaAppStore className='text-3xl' />
             <span>
               <span>Download on the</span> <br />
@@ -29,7 +29,7 @@ export default function Home() {
           <a
             href='https://play.google.com/store/apps/details?id=com.kinyozi.app'
             target='_blank'
-            className='bg-gray-700 border-2 border-gray-300 p-4 w-60 text-white rounded-2xl shadow-md flex items-center text-start gap-x-2 hover:scale-105 duration-700'
+            className='bg-gray-700 border-2 border-gray-300 px-4 py-2 w-60 text-white rounded-2xl shadow-md flex items-center text-start gap-x-2 hover:scale-105 duration-700 mx-auto lg:mx-0'
           >
             <FaGooglePlay className='text-3xl' />
             <span>
@@ -40,7 +40,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className=' w-full md:w-[48%] mx-auto  md:-mt-20 duration-1000'>
+      <div className=' w-full md:w-[48%] mx-auto  md:-mt-20 duration-1000 mb-5 pb-5'>
         <Image
           src='/mockup.svg'
           width={1000}
